@@ -5,7 +5,7 @@ others by uploading Python application projects to recommend to people.
 
 ## Contributing
 
-Refer to the file CONTRIBUTING.md for the guide on how to contribute to the repository.
+Refer to the file [CONTRIBUTING.md](https://github.com/DigitalCreativeApkDev/PYTHON_APP_PROJECT_RECOMMENDATIONS/blob/master/CONTRIBUTING.md) for the guide on how to contribute to the repository.
 
 ## Table of Contents
 
