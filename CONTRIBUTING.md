@@ -17,5 +17,7 @@ be able to contribute to the repository.
 (i.e., "Beginner Projects" for beginner, "Intermediate Projects" for intermediate, and "Advanced Projects" for 
 advanced).
 2. Improve the code of any existing projects in the repository and become one of the contributors of the projects.
-3. Move a Python application project from one directory from another (e.g., "Beginner Projects" to 
+3. Add executable files for any existing projects in the repository. For example, if project "A" in "Beginner Projects"
+only has executable file for Mac OS PC, you can add an executable file for Windows PC.
+4. Move a Python application project from one directory from another (e.g., "Beginner Projects" to 
 "Intermediate Projects") if there are misplaced application projects.

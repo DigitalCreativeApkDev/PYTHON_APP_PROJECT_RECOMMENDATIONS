@@ -42,8 +42,8 @@ class Player:
         self.level: int = 1
         self.max_hp: mpf = mpf(random.randint(120, 150))
         self.curr_hp: mpf = self.max_hp
-        self.attack_power: mpf = mpf(random.randint(20, 50))
-        self.defense: mpf = mpf(random.randint(20, 50))
+        self.attack_power: mpf = mpf(random.randint(40, 50))
+        self.defense: mpf = mpf(random.randint(20, 30))
 
     def level_up(self):
         # type: () -> None
@@ -105,16 +105,18 @@ def main():
     print("This game is a turn-based RPG where your mission is to reach a level as high as possible without dying.")
 
     name: str = input("Please enter your name: ")
-    player: Player = Player(name)
-    enemy: Enemy = Enemy()
 
+    clear()
     print("Enter 'Y' for yes.")
     print("Enter anything else for no.")
     continue_playing: str = input("Do you want to continue playing 'Attack The Enemy RPG'? ")
     while continue_playing == "Y":
+        player: Player = Player(name)
+        enemy: Enemy = Enemy()
         curr_round: int = 1  # initial value
         turn: int = 0  # initial value
         while player.is_alive():
+            clear()
             print("-------------------------ROUND " + str(curr_round) + "-------------------------")
             print("Your stats: " + str(player) + "\n")
             print("Your enemy's stats: " + str(enemy) + "\n")
