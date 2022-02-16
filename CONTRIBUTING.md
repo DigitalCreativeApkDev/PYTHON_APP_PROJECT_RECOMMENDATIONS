@@ -6,7 +6,7 @@ You can post an issue so that we can quickly fix it.
 
 Contact the owner of the repository via the following account.
 
-[Facebook](https://www.facebook.com/profile.php?id=100077504199500)
+[DigitalCreativeApkDev Facebook Account](https://www.facebook.com/profile.php?id=100077504199500)
 
 Then, wait for the owner to respond and add you as one of the contributors of the repository. After that, you will 
 be able to contribute to the repository.
